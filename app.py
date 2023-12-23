@@ -1,10 +1,9 @@
+pip import requirements.txt
 import streamlit as st
 import pandas as pd
 import numpy as np
 import re
 import pickle
-import sklearn
-import scipy
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy.sparse import coo_matrix
