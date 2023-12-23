@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-import sklearn
-import scipy
+!pip install scipy
+!pip install sklearn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy.sparse import coo_matrix
